@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* more headers goes there
-* main - we are using if statements to print some stuff.
-*betty style doc for function main goes there
+* main - we are using if statements to print some stuff about numbers
+* Return: alway be 0
 */
+
 int main(void)
 {
 	int n;
