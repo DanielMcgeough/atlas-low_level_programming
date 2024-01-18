@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - use sizeof command, betty, you suck.
+ * main - prints the size of various types
  *
- * Return: always return 0
+ * Return: always be 0
  */
 int main(void)
 {
