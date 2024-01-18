@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*main - print if numbers are positive, negative or zero.
+
+/**
+*main - displays whether random number is pos, neg, or equal
 *Return: always return 0
 */
 
