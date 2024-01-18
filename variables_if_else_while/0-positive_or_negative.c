@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - we are using if statements to print some stuff about numbers
-* Return: alway be 0
+*main - we are using if statements to print some stuff about numbers
+*Return: alway be 0
 */
 
 int main(void)
