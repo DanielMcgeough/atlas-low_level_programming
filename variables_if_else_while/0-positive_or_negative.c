@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
-*main - we are using if statements to print some stuff about numbers
-*Return: alway be 0
+*main - Entry Point we are using if statements to print some stuff abo*ut numbers and if they are positive, negative or equal zero.
+*Return: Always 0 (Success)
 */
 
 int main(void)
