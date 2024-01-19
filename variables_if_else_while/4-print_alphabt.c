@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
 *main - trying to print alphabet without q's and e's using putchar
 *return always 0 
 */
+
 int main(void)
 {
 	char c = 'a'
