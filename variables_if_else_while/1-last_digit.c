@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /** 
-*main - trying to parse info about last digit in number
-*return always 0
+*main - displays whether last digit is greater or less than.
+*Return: always return 0
 */
 int main(void)
 {
