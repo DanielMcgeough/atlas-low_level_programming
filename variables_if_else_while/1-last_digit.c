@@ -3,6 +3,7 @@
 #include <stdio.h>
 /** 
 *main - trying to parse info about last digit in number
+*return always 0
 */
 int main(void)
 {
