@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <conio.h>
 /** betty style doc for function main goes there 
 *main - trying to parse info about last digit in number
 */
