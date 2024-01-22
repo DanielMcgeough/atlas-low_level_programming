@@ -3,7 +3,6 @@
 /**
  *print_to_98 - prints form 0 to 98
  *@n: initial variable
- *@i: new values for counting
  *Return: Always 0
  */
 void print_to_98(int n)
