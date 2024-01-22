@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sign - based on if n is pos, neg, or eq to 0
+ * print_sign - based on if n is pos, neg, or eq to 0
  *@n: int input
  * Return: 1 if pos, 0 if eq, -1 if neg
  */
