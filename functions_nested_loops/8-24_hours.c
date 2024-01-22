@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 24_hours - prints every minute and hour of the day
+ * jack_bauer - prints every minute and hour of the day
  * @m
  * @h
  * Return: Always 0
