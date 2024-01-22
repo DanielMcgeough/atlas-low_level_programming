@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * 24_hours - prints every minute and hour of the day
- * @i
+ * @m
  * @h
  * Return: Always 0
  */
