@@ -4,7 +4,7 @@
  *@n: int input
  * Return: 1 if pos, 0 if eq, -1 if neg
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 	if(n > 0)
 	{
