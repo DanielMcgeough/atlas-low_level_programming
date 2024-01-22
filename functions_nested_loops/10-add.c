@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int add - adds two numbers and returns sum
+ *add - adds two numbers and returns result
  *@a: integer submitted
  *@b: integer submitted
  * Return: Always 0
