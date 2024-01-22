@@ -10,10 +10,10 @@ void jack_baur(void)
 	int i = 1;
 	int h = 0;
 
-	While (h >= 0 && h < 13)
+	While (h >= 0 && h < 13);
 	{
 		_putchar(h);
-		while (i >= 0 && i <= 59)
+		while (i >= 0 && i <= 59);
 		{
 			if (i> 59)
 			{
