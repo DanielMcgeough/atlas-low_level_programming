@@ -3,15 +3,15 @@
  * _abs - computes the abs val of an int.
  *
  */
-int _abs(int)
+int _abs(int r)
 {
-	if (int < 0)
+	if (r < 0)
 	{
-		return (-int);
+		return (-r);
 	}
 	else
 	{
-		return (int);
+		return (r);
 	}
 return (0);
 }	
