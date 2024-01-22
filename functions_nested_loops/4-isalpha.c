@@ -10,11 +10,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else if (c != 'a' || c != 'A')
-	{
-		return (0);
-	}
-	else
+	else if (c != 'a' || c != 'A' || c != int)
 	{
 		return (0);
 	}
