@@ -1,8 +1,7 @@
-
 #include "main.h"
 /**
  * main - print alphabet using _putchar prototype.
- *
+ *Return: always return 0
  */
 int main(void)
 {
