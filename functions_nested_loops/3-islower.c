@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * int _islower(int c)- returns 1 if char is lowercase.
- *
- * Return: 0.
+ * int _islower(int c) - returns 1 if char is lowercase.
+ *@c: chcecked input
+ * Return: 1 if lower, else 0.
  */
 int _islower(int c)
 {
