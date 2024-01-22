@@ -5,9 +5,7 @@
  * Return: 0.
  */
 int _islower(int c)
-{
-	int c = 'a'
-	
+{	
 	if (c = 'a')
 	{
 		return = 1;
