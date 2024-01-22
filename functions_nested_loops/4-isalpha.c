@@ -6,13 +6,11 @@
  */
 int _isalpha(int c)
 {
-	int i;
-
 	if (c <= 'a' || c >= 'A')
 	{
 		return (1);
 	}
-	else if (c != 'a' || c != 'A' || c != i)
+	else if (c != 'a' || c != 'A' || c != "%d")
 	{
 		return (0);
 	}
