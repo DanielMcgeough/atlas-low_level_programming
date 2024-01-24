@@ -4,13 +4,14 @@
  *
  * Return: return is void
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int a = 0;
+
 	while (a >= 0 && a <= 14)
 	{
-		_putchar(a * 10)
-		a++
+		_putchar(a * 10);
+		a++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
