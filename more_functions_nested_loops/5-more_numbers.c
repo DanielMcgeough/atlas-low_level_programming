@@ -10,7 +10,7 @@ void more_numbers(void)
 
 	for (a = 0; a <= 14; a++)
 	{
-		_putchar(48 + a);
+		_putchar(0 + a);
 	}
 	_putchar('\n');
 }
