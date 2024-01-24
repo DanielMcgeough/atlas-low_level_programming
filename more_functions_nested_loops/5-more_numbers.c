@@ -10,6 +10,7 @@ void more_numbers(void)
 
 	while (a >= '0' && a <= '14')
 	{
+		_puthcar(48 + a);
 		_putchar(a * 10);
 		a++;
 	}
