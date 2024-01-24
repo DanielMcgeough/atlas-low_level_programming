@@ -10,7 +10,7 @@ void more_numbers(void)
 
 	while ( a < 15)
 	{
-		_putchar(48 + a);
+		_putchar("%d");
 		a++;
 	}
 	_putchar('\n');
