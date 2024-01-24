@@ -6,12 +6,11 @@
  */
 void more_numbers(void)
 {
-	int a = 0;
-
+	int a;
+	
 	while (a >= 0 && a <= 14)
 	{
 		_putchar(48 + a);
-		_putchar(a * 10);
 		a++;
 	}
 	_putchar('\n');
