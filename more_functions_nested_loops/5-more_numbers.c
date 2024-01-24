@@ -6,9 +6,9 @@
  */
 void more_numbers(void)
 {
-	int a = 0;
+	int a;
 
-	while ( a < 15)
+	for (a = 0; i <= 14; i++)
 	{
 		_putchar(48 + a);
 		a++;
