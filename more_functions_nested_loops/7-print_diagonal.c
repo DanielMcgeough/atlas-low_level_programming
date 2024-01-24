@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print-diagonal- prints diagonal things
+ * print_diagonal- prints diagonal slashes
  * @n: number of diagonal things
  *
  * Return: return is void
