@@ -8,9 +8,9 @@ void more_numbers(void)
 {
 	int a = 0;
 
-	while (a >= '0' && a <= '14')
+	while (a >= 0 && a <= 14)
 	{
-		_puthcar(48 + a);
+		_putchar(48 + a);
 		_putchar(a * 10);
 		a++;
 	}
