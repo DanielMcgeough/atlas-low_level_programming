@@ -2,14 +2,15 @@
 /**
  * print_numbers- prints the numbers
  *
- * Return: Always Returns 0
+ * Return: return is void
  */
 void print_numbers(void)
 {
 	int a = 0;
+
 	while (a < 10)
 	{
-		_putchar(a);
+		_putchar(48 + a);
 		a++;
 	}
 	_putchar('\n');
