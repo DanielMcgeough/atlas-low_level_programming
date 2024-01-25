@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Fizz_Buzz- identifes multiple of 3 and 5 and both
+ * fizz_buzz- identifes multiple of 3 and 5 and both
  *
  * Return: Return always 0
  */
-void Fizz_Buzz(void)
+void fizz_buzz(void)
 {
 	int a;
 
