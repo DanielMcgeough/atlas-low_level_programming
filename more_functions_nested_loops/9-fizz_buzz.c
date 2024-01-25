@@ -3,7 +3,7 @@
 /**
  * main- identifes multiple of 3 and 5 and both
  *
- * Return: Return is void.
+ * Return: Return is zero.
  */
 int main(void)
 {
@@ -35,4 +35,6 @@ int main(void)
 		printf("%d ", a);
 		}
 	}
+	return (0)
 }
+
