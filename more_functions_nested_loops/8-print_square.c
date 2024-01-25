@@ -7,12 +7,12 @@
  */
 void print_square(int size)
 {
-	int a;
-	int b;
+	int rows;
+	int columns;
 
-	for (a = 0; a < size; a++)
+	for (rows = 1; rows <= size; rows++)
 	{
-		for (b = 0; b <= a; b++)
+		for (columns = 1; columns <= size; columns++)
 		{
 		_putchar('#');	
 		}
