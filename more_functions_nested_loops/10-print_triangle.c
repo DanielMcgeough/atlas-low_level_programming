@@ -4,12 +4,12 @@
  *
  * Return: returns void
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int columns;
 	int rows;
 
-	for (rows = 1; rows <= size: rows++)
+	for (rows = 1; rows <= size; rows++)
 	{
 		for (columns = 1; columns <= rows; columns++)
 		{
