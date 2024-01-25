@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mainz- identifes multiple of 3 and 5 and both
+ * main- identifes multiple of 3 and 5 and both
  *
  * Return: Return always 0
  */
-void mainz(void)
+void main(void)
 {
 	int a;
 
