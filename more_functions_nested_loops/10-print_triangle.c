@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * print_triangle- prints triangles of things
+ *@size: integer supplied.
  *
- * Return: returns void
+ * Return: returns box
  */
 void print_triangle(int size)
 {
@@ -13,7 +14,7 @@ void print_triangle(int size)
 	{
 		for (columns = 1; columns <= size; columns++)
 		{
-			if(columns >= (size - rows + 1))
+			if (columns >= (size - rows + 1))
 			{
 				_putchar('#');
 			}
