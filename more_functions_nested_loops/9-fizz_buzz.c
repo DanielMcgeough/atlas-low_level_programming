@@ -3,7 +3,7 @@
 /**
  * main- identifes multiple of 3 and 5 and both
  *
- * Return: Return always 0
+ * Return: Return is void.
  */
 void main(void)
 {
