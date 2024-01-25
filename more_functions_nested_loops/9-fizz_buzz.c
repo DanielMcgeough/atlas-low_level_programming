@@ -5,7 +5,7 @@
  *
  * Return: Return always 0
  */
-void Fizz-Buzz(void)
+void Fizz_Buzz(void)
 {
 	int a;
 
