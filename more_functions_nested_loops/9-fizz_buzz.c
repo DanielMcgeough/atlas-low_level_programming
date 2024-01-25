@@ -1,31 +1,38 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Fizz_Buzz- identifes multiple of 3 and 5 and both
+ * main- identifes multiple of 3 and 5 and both
  *
  * Return: Return always 0
  */
-void Fizz_Buzz(void)
+void main(void)
 {
 	int a;
 
-	for (a = 0; a <= 100; a++)
+	for (a = 1; a <= 100; a++)
 	{	
 		if ((a % 3) == 0 && (a % 5) == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else if ((a % 3) == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if ((a % 5) == 0)
 		{
-			printf("Buzz");
+			if (a == 100)
+			{
+				printf("Buzz\n");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
 		else
 		{
-		printf("%d", a);
+		printf("%d ", a);
 		}
 	}
 }
