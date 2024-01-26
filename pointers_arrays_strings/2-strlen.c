@@ -5,7 +5,7 @@
  *
  * Return: length of string is returned
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int length = str[s];
 	while (*s != '\0')
