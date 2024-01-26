@@ -5,7 +5,7 @@
  *
  * Return: returns string
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	_putchar(str);
 	_putchar('\n');
