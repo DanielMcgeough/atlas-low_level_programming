@@ -5,6 +5,22 @@
  *
  * Return: return is void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-	int a, length;
+	int a = 0, length = 0;
+	char swap;
+	
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+
+	length--;
+
+	for (; a <= length; a++, length--)
+	{
+		swap = s[length];
+		s[length] = s[a];
+		s[a] = swap;
+	}
+}
