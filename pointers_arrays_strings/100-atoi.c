@@ -20,6 +20,7 @@ int _atoi(char *s)
 		else if (*s >= 48 && *s <= 57)
 		{
 			result = result * 10 + (*s - 48);
+			firstnum = 1;
 		}
 		else if (*s == '+' || *s == ' ')
 		{
