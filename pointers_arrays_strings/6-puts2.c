@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev- prints a string in reverse
+ * puts2- prints certain chars of string
  * @str: passed in character as pointer
  *
  * Return: return is void
@@ -13,8 +13,8 @@ void puts2(char *str)
 	{
 		if (len % 2 == 0)
 			_putchar(*str);
-			len++;
-			str++;
+		len++;
+		str++;
 	}
 	_putchar('\n');
 }
