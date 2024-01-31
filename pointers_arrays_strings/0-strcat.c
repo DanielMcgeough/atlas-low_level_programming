@@ -8,11 +8,11 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	while (*dest) 
+	while (*dest < '\0') 
 	{
 		dest++;
 	}
-	while (*src)
+	while (*src <= '\0')
 	{
 		dest = src;
 		dest++;
