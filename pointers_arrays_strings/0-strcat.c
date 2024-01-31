@@ -14,11 +14,11 @@ char *_strcat(char *dest, char *src)
 	}
 	while (*src)
 	{
-		*dest = *src;
+		dest = src;
 		dest++;
 		src++;
 	}
-	*dest = *_strcat;
+	dest = _strcat;
 	*_strcat = '\0';
-	return (*_strcat);
+	return (_strcat);
 }
