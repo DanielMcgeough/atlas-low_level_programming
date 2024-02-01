@@ -16,4 +16,5 @@ char *string_toupper(char *abigail)
 		abigail[i] = abigail[i] - 32;
 		}
 	}
+	return (abigail);
 {
