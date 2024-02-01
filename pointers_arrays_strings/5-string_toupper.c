@@ -9,9 +9,9 @@ char *string_toupper(char *abigail)
 {
 	int i;
 
-	for(i = 0; abigail[i] != '\0'; i++)
+	for (i = 0; abigail[i] != '\0'; i++)
 	{
-		if(abigail[i] >= 97 && abigail[i] <= 122)
+		if (abigail[i] >= 97 && abigail[i] <= 122)
 		{
 		abigail[i] = abigail[i] - 32;
 		}
