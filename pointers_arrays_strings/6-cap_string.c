@@ -6,9 +6,10 @@
  * Return: Returns a char
  */
 char *cap_string(char *strong)
-{	
+{
 	int i;
-	for(i = 0; strong[i] != '\0'; i++)
+
+	for (i = 0; strong[i] != '\0'; i++)
 	{
 
 		if (strong[i] >= 'a' && strong[i] <= 'z')
@@ -17,9 +18,8 @@ char *cap_string(char *strong)
 			{
 				strong[i] -= 32;
 			}
-			
-			
-			else if 
+
+			else if
 			(
 			strong[i - 1] == ',' ||
 			strong[i - 1] == ' ' ||
