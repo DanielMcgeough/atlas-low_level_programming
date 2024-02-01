@@ -38,6 +38,7 @@ char *cap_string(char *strong)
 			{
 			strong[i] -= 32;
 			}
+		}
 	}
 	return (strong);
 }
