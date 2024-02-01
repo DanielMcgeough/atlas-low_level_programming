@@ -33,7 +33,7 @@ char *cap_string(char *strong)
 			strong[i - 1] == '{' ||
 			strong[i - 1] == '}' ||
 			strong[i - 1] == '\n' ||
-			strong[i - 1] == '\t' ||
+			strong[i - 1] == '\t'
 			)
 			{
 			strong[i] -= 32;
