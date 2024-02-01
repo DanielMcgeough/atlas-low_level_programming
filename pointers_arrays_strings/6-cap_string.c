@@ -8,7 +8,7 @@
 char *cap_string(char *strong)
 {	
 	int i;
-	for(i = 0; i != '\0'; i++)
+	for(i = 0; strong[i] != '\0'; i++)
 	{
 
 		if (strong[i] >= 'a' && strong[i] <= 'z')
