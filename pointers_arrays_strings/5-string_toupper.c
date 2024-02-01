@@ -2,7 +2,7 @@
 /**
  * *string_toupper- changes lower to upper case
  *
- * @*: pointer to a char
+ * @*abigail: pointer to a char
  * Return: Returns a char
  */
 char *string_toupper(char *abigail)
