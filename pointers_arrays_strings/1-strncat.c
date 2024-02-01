@@ -3,6 +3,7 @@
  * *_strncat- function to concatenate two strings
  * @dest: string passed in
  * @src: other string passed in
+ * @n: an int passed in
  *
  * Return: Returns a char printing new string
  */
