@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_array- function that reverses array of ints
+ * reverse_array- function that reverses array of ints
  * @a: pointer to int
  * @n: int passed in
  *
