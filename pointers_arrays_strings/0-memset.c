@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * memset- Fills memory with a constant byte
+ * _memset- Fills memory with a constant byte yall.
  * @s: pointer to character passed in
  * @b: character passed in
  * @n: int passed in only pos
