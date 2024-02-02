@@ -9,7 +9,7 @@ char *leet(char *elite)
 {
 	int x = 0;
 	int y = 0;
-	
+
 	char let[] = "OoLlEeAaTt";
 	char num[] = "0011334477";
 
