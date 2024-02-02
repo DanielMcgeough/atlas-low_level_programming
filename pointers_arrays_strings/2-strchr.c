@@ -6,7 +6,7 @@
  *
  * Return: returns a char
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	int a;
 
