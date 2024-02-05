@@ -19,4 +19,4 @@ void print_diagsums(int *a, int size)
 	{
 	}
 	
-	printf("%d", (i + j));	
+	printf("Sum is %d", (i + j));	
