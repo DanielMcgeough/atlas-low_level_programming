@@ -12,11 +12,13 @@ void print_diagsums(int *a, int size)
 	int i;
 	int j;
 
-	for (i = 0; a[i] < size; i++)
+	while (a[i] < size)
 	{
+		i++
 	}
-	for (j = 0; a[j] < size; j++)
+	while (a[j] < size)
 	{
+		j++
 	}
 	
 	printf("Sum is %d", (i + j));	
