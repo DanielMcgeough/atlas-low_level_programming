@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		length++;
 		s++;
-		accept++;
 	}
+	accept++;
 	return length;
 }
