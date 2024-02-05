@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_diagsums- print the sum of diagonals
- * @i: integer passed in
- * @j: integer passed in as well.
+ * @a: array
+ * @size: size of array
  *
  * Return: Return is void
  */
