@@ -10,18 +10,21 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int length = 0;
 
-	while (*s != '\0' && *accept != '\0' && *s == *accept)
+	while (*s != '\0') 
 	{
-		if (*s == *accept)
+		if (*s == *accept) 
 		{
-		length++;
-		accept++;
+                return 1;
 		}
-		else if (*s != *accept)
-		{
-			s++;
-		}
+		s++;
+	}
+	return 0;
 	}
 
+	while (*s != '\0') 
+	{
+        length++;
+        s++;
+	}
 	return length;
 }
