@@ -11,8 +11,8 @@ void print_diagsums(int *a, int size)
 {
 	int i;
 	int j;
-	int Diag1;
-	int Diag2;
+	int Diag1 = 0;
+	int Diag2 = 0;
 	
 	for (i = 0; i == size; i++)
 	{
