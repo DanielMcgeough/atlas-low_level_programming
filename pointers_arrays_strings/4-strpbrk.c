@@ -7,6 +7,7 @@
  * Return: pointer to a byte as char or NULL
  */
 char *_strpbrk(char *s, char *accept)
+{
 	int i;
 
 	while(*s)
