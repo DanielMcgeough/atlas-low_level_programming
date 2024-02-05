@@ -14,11 +14,11 @@ void print_diagsums(int *a, int size)
 
 	while (a[i] < size)
 	{
-		i++
+		i++;
 	}
 	while (a[j] < size)
 	{
-		j++
+		j++;
 	}
 	
 	printf("Sum is %d", (i + j));	
