@@ -13,5 +13,10 @@ void print_diagsums(int *a, int size)
 	int j;
 
 	for (i = 0; a[i] < size; i++)
+	{
+	}
 	for (j = 0; a[j] < size; j++)
+	{
+	}
+	
 	printf("%d", (i + j));	
