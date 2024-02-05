@@ -14,11 +14,11 @@ void print_diagsums(int *a, int size)
 	int Diag1 = 0;
 	int Diag2 = 0;
 	
-	for (i = 0; i == size; i++)
+	for (i = 0; i <= size; i++)
 	{
 		Diag1 += a[size + 1 * i];
 	}
-	for (j = 1; j == size; j++)
+	for (j = 1; j <= size; j++)
 	{
 		Diag2 += a[size - 1 * j];
 	}
