@@ -9,14 +9,19 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
-int _sqrt(int n, int i)
+int calsqrt(int n, int d)
 {
-	int sqrt = i * i;
-
-	if (sqrt > n)
-		return (-1);
-
-	else if (sqrt == n)
-		return (i);
-	return (_sqrt(n, i + 1));
+	if (n < 0 || d == n)
+	{
+		return(-1);
+	}
+	if (n == 0 || n == 1)
+	{
+		return (n);
+	}
+	if (d * d == n)
+	{
+		return (d);
+	}
+	return (calsqt(n, d + 1));
 }
