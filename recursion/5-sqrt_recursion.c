@@ -1,5 +1,6 @@
 #include "main.h"
-/** _sqrt_recursion- returns nat sqrt of a number
+/** 
+ * _sqrt_recursion- returns nat sqrt of a number
  * @n: number passed in
  *
  * Return: returns an int
