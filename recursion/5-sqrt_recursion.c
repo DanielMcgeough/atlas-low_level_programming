@@ -23,5 +23,5 @@ int calsqrt(int n, int d)
 	{
 		return (d);
 	}
-	return (calsqt(n, d + 1));
+	return (calsqrt(n, d + 1));
 }
