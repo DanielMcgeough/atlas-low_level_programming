@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- * _puts- prints a string
- * @str: input character
+ * _puts_recursion- prints a string in the style of puts
+ * @s: input character
  *
- * Return: returns string
+ * Return: returns void
  */
 void _puts_recursion(char *s)
 {
-	int i = 0;
-
-	if(s[i] < (*s != '\0') 
+	if(s[i] 
 	{
+		_puts_recursion(s)
 	}	       
-	return s[i];
 	i++;
-	_putchar('\n');
 }
