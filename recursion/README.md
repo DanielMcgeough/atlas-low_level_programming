@@ -1,0 +1,1 @@
+This will be the first introduction and steps into recursion for our cohort. We will be utilizing recursion in place of loops in order to create and maintain a working knowledge of recursion and how it can be used to carry out certain tasks that we have done with loops. I harbor reservations about how useful this will really be as it seems altogether more complex.
