@@ -13,7 +13,7 @@ int calsqrt(int n, int d)
 {
 	if (n < 0 || d == n)
 	{
-		return(-1);
+		return (-1);
 	}
 	if (n == 0 || n == 1)
 	{
