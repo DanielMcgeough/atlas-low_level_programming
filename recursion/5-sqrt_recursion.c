@@ -9,6 +9,13 @@ int _sqrt_recursion(int n)
 {
 	return (calsqrt(n, 0));
 }
+/**
+ * calsqrt- calculates square root
+ * @n: one passed in int
+ * @d: one passed in int
+ *
+ * Return: returns an int
+ */
 
 int calsqrt(int n, int d)
 {
