@@ -1,0 +1,1 @@
+This is a large and difficult to conceptualize intro to libraries. We are starting with static libraries and they can be created through C and/or bash. We will try both in this project and my apprehension is only increasing.
