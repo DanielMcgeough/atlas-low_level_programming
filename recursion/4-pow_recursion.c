@@ -1,5 +1,6 @@
 #include "main.h"
-/** _pow_recursion- raises x to pow of y
+/** 
+ * _pow_recursion- raises x to pow of y
  *@x: given int
  *@y: power to raise x to
  *
@@ -15,5 +16,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-	return ( x * _pow_recursion(x, y - 1));
+	return (x * _pow_recursion(x, y - 1));
 }
