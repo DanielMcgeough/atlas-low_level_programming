@@ -7,14 +7,9 @@
  *
  * Return: product in int
  */
-int main(int argc, char *argv[])
+int main(int a, int b)
 {	
-	int a = 2;
-	int b = 5;
-	int c = (a * b);
-
-	(void) argc;
-	(void) argv;
+	int result = (a * b);
 
 	if (argc < 2)
 	{
@@ -23,8 +18,8 @@ int main(int argc, char *argv[])
 	}
 	else if (argc >= 2)
 	{
-		printf("(%d)", c);
-		return (c);
+		printf("(%d)", result);
+		return (result);
 	}
 	return (0);
 }
