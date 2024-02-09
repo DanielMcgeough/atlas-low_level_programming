@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
 	int b;
 	int c;
 
+	(void) argc;
+	(void) argv;
+
 	printf("%d * %d = %d", a b c);
 	return (c);
 }
