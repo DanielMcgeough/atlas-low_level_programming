@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			argv[a] + 
+			argv[a] + argv[a]
 		}
 	}
 	return (0);
