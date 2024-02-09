@@ -6,7 +6,7 @@
  *
  *
  */
-int main (int argc, char* argv[])
+int main (char* argv[])
 {
 	printf("This is what is in argv[]:\n", argv[0]);
 	return 0;
