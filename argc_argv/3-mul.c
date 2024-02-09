@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("error\n");
 		return (1);
 	}
-	else if (argc == 3)
+	else
 	{
 		printf("(%d\n)", (a * b));
 	}
