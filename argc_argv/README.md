@@ -1,0 +1,1 @@
+This is the README for argc and argv and our introduction to them. ARGC is a command that counts the number of command line arguments passed in and the size of the argv array. ARGV is an array that contains all of the command line arguments.
