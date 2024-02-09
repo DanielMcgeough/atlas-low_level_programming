@@ -18,9 +18,7 @@ int main(int argc, char *argv[])
 		printf("error\n");
 		return (1);
 	}
-	else
-	{
-		printf("%d\n", a * b);
-	}
+
+	printf("%d\n", a * b);
 	return (0);
 }
