@@ -3,11 +3,15 @@
 
 /**
  * whatsmyname- prints name of program
+ *@argc: count of arguments
+ *@argv: vector of arguments
  *
- *
+ * Return: returns an int
  */
-int main (char* argv[])
+int main (int argc, char* argv[])
 {
-	printf("This is what is in argv[]:\n", argv[0]);
-	return 0;
+	(void) argc;
+	printf("%s\n", argv[0]);
+	
+	return (0);
 }
