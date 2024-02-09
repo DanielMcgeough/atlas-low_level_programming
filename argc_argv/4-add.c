@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	for(a = 0; a < argc; a++)
 	{
-		if (argv[a] < 48 || > 57)
+		if (atoi(argv[a]) < 48 || > 57)
 		{
 			printf("Error\n");
 			return (1);
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			argv[a] + argv[a]
+			atoi(argv[a]) + atoi(argv[a])
 		}
 	}
 	return (0);
