@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int a;
-	int b;
+	unsigned int b;
 	int sum = 0;
 	char *e;
 
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 			{
 				if (e[b] < 48 || e[b] > 57)
 				{
-					printf("Error\n"};
+					printf("Error\n");
 					return (1);
 				}
 			}
