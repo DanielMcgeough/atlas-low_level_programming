@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _strdup: return pointer to new space in mem with str as param
+ * _strdup- return pointer to new space in mem with str as param
  * @str: the pointer to the string
  *
  * Return: null or success
