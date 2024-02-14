@@ -8,7 +8,7 @@
  *
  * Return: null or success
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int a = 0;
 	int b = 1;
