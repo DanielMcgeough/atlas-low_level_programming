@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[c])
 		c++;
 
-	if ( n >= c)
+	if (n >= c)
 		d = a + c;
 	else
 		d = a + n;
