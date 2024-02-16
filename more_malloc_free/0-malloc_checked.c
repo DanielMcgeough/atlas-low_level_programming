@@ -8,7 +8,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void a;
+	int *a;
 
 	a = malloc(b);
 
@@ -16,5 +16,5 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-	return (a)
+	return (a);
 }
