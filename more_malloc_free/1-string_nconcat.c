@@ -10,7 +10,8 @@
  */
 char *string_nconcant(char *s1, char *s2, unsigned int n)
 {
-	int a = 0, b = 0, c = 0, d = 0;
+	int a = 0, b = 0, d = 0;
+	unsigned int c = 0;
 	char *s3;
 
 	if (s1 == NULL)
@@ -44,3 +45,4 @@ char *string_nconcant(char *s1, char *s2, unsigned int n)
 	}
 	s3[b] = '\0';
 	return (s3);
+}
