@@ -8,7 +8,7 @@
  * @n: unsigned int.
  * Return: returns a char.
  */
-char *string_nconcant(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int a = 0, b = 0, d = 0;
 	unsigned int c = 0;
