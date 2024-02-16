@@ -40,7 +40,7 @@ char *string_nconcant(char *s1, char *s2, unsigned int n)
 			s3[b] = s2[c];
 			c++;
 		}
-		b++
+		b++;
 	}
 	s3[b] = '\0';
 	return (s3);
