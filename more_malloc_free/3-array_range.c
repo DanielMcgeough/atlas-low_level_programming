@@ -5,7 +5,7 @@
  * array_range- create an arr of ints
  * @min: min val of an int
  * @max: max val of an int
- * Return: returns an int 
+ * Return: returns an int
  */
 int *array_range(int min, int max)
 {
@@ -23,7 +23,7 @@ int *array_range(int min, int max)
 	{
 		a[b] = min;
 		b++;
-		min ++;
+		min++;
 	}
 	return (a);
 }
