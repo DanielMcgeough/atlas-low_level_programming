@@ -3,9 +3,10 @@
 /**
  * main - print file name
  *
- * Return: return is void
+ * Return: return is int
  */
-void main(void)
+int main(void)
 {
-	printf("%s\n", ___FILE___);
+	printf("%s\n", __FILE__);
+	return (0);
 }
