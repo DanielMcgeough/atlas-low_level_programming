@@ -1,3 +1,12 @@
+#ifndef DOG_H
+#define DOG_H
+
+
+
+#endif 
+
+
+
 /**
  * struct dog - talk about the goodest boy/girl.
  * @name: The name of the puppers.
