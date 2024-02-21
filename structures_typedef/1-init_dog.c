@@ -4,6 +4,10 @@
 
 /**
  * init_dog- some information dispensed
+ * @d: name of pupper struct
+ * @name: name of pupper
+ * @age: age of pupper
+ * @owner: owner of pupper
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
