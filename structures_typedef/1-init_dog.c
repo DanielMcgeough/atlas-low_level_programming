@@ -2,9 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * init_dog- some information dispensed
+ */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
+	if (d != NULL)	
 	{
 	d->name = name;
 	d->age = age;
