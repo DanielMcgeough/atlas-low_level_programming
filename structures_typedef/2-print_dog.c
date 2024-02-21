@@ -7,7 +7,7 @@
  * @d: pulling in the struct for stuff
  * Return: return is a void
  */
-void print_dog
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
