@@ -14,5 +14,5 @@ void print_dog
 		printf("Name: %s\n", (d->name ? d->name : "(nil)");
 		printf("Age: %d\n", (d->age ? d->age : "(nil)");
 		printf("Owner: %s\n", (d->owner ? d->owner : "(nil)");
-	{
+	}
 }
