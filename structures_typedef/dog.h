@@ -1,9 +1,5 @@
-#ifndef HEADER_H
-#define HEADER_H
-
-#endif
-
-
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - talk about the goodest boy/girl.
@@ -19,3 +15,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
