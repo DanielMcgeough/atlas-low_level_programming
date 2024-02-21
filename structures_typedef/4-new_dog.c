@@ -3,12 +3,8 @@
 #include <stdlib.h>
 
 /**
- * new_dog - making a new entry for the diff pupper
- * @name: name of pupper
- * @age: age of pupper
- * @owner: name of owner
- *
- * Return: returns stuff
+ * _strlen - gets length of a string
+ * @s: pointer to string
  */
 
 int _strlen(char *s)
@@ -23,6 +19,12 @@ int _strlen(char *s)
 	return (length);
 }
 
+/**
+ * _strcpy - I dont want to copy a string
+ * @dest: destination
+ * @src: source
+ */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
@@ -35,6 +37,13 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
+/**
+ * new_dog - making a new entry for the diff pupper
+ * @name: name of pupper
+ * @age: age of pupper
+ * @owner: name of owner
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
