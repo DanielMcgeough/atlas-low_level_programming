@@ -1,9 +1,7 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef HEADER_H
+#define HEADER_H
 
-
-
-#endif 
+#endif
 
 
 
