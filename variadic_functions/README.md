@@ -1,0 +1,1 @@
+In this project we are broaching the subject of variadic functions. We have been introduced to functions such as this before albeit in a much simpler fashion. This will require a solemn acheived level of intellect to complete.
