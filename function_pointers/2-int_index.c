@@ -9,7 +9,7 @@
  * @cmp: function that takes an int as argument
  * Return: returns an int from array
  */
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
