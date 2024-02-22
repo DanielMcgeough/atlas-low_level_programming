@@ -1,0 +1,1 @@
+This is the introduction to function pointers and we are all starting off in the deep end of the pool with this section. We first were introduced to pointers representing something other than just data during our first foray into pointers a few weeks ago. Now we are looking at pointers "pointing" to functions.
