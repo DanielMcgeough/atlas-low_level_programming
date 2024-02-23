@@ -5,7 +5,7 @@
  * sum_them_all - Returns the sum of args passed in.
  * @n: the number of parameters passed to the function.
  * @...: some random arguments
- * Returns: returns sum as int
+ * Return: returns sum as int
  */
 int sum_them_all(const unsigned int n, ...)
 {
