@@ -2,6 +2,9 @@
 #define _HEADER_
 /**
  * struct op - a struct for holding two ints and a ptr
+ * @op: pointer to char
+ * @a: an int
+ * @b: another int
  */
 
 typedef struct op
