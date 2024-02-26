@@ -1,5 +1,8 @@
 #ifndef _HEADER_
 #define _HEADER_
+/**
+ * struct op - a struct for holding two ints and a ptr
+ */
 
 typedef struct op
 {
