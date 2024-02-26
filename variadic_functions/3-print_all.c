@@ -12,7 +12,7 @@
  */
 void print_all(const char * const format, ...)
 {
-       va_list args;
+	va_list args;
 	f_dt form_types[] = {
 		{ "c", print_a_char },
 		{ "i", print_a_integer },
@@ -72,7 +72,7 @@ void print_a_integer(char *separator, va_list args)
  * print_a_float - prints a floating num
  * @separator: the separator
  * @args: list of args
- * 
+ *
  * Return: returns a void
  */
 void print_a_float(char *separator, va_list args)
