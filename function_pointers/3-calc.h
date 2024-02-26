@@ -3,8 +3,7 @@
 /**
  * struct op - a struct for holding two ints and a ptr
  * @op: pointer to char
- * @a: an int
- * @b: another int
+ * @f: a ptr to an int
  */
 
 typedef struct op
