@@ -1,0 +1,3 @@
+Singly Linked Lists
+This is the Readme file for the singly linked lists project at Atlas School for the January 2024 cohort. This projects purposes is to introduce the new data structure of singly linked lists which will be a useful tool to represent and store data that has distinct advantages over other data structures such as Arrays. The defintion of a singly linked list is as follows: A singly linked list is a linear data structure in which the elements are not stored in contiguous memory locations and each element is connected only to its next element using a pointer.
+Each Singly linked list consists of nodes linked to one another by pointers. The first node is called Head while the last is called tail.
