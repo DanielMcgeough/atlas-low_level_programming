@@ -20,7 +20,7 @@ size_t print_list(const list_t *h)
 		if (h->str)
 			printf("%s\n", h->str);
 		else
-			printf("(nil)\n";
+			printf("(nil)\n");
 		i++;
 		h = h->next;
 	}
