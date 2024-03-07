@@ -2,8 +2,7 @@
 
 /**
  * *add_nodeint- adds a new node at beg of list
- * @**head: list of nodes
- * @*head: don't know why I need this
+ * @head: list of nodes
  * @n: int of number
  * Return: return address of new element
  */
