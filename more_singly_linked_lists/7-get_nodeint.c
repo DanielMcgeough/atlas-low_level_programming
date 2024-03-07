@@ -4,6 +4,7 @@
  * *get_nodeint_at_index- return a certain node at a certain position
  * @head: linked list of nodes
  * @index: selects node to pull data from
+ * Return: returns an int technically.
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
