@@ -1,0 +1,1 @@
+This is the README file for the more singly linked lists project from Atlas School for the January 2024 cohort. The purpose of this project is to deepenour understanding of the process of creating and utilizing linked lists and also finding ways to navigate through them more than just forward.
