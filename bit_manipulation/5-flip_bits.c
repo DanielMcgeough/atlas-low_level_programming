@@ -15,9 +15,10 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	for (a = 63; a >= 0; a--)
 	{
-		current = exclsuive >> a;
+		current = exclusive >> a;
 		if (current & 1)
 			theCount++;
 	}
 
 	return (theCount);
+}
