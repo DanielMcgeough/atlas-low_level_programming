@@ -10,9 +10,9 @@ void print_binary(unsigned long int n)
 	int count = 0;
 	unsigned long int deuces;
 
-	for (a = 63; i >= 0; i--)
+	for (a = 63; a >= 0; a--)
 	{
-		deuces = n >> i;
+		deuces = n >> a;
 
 		if (deuces & 1)
 		{
