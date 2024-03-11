@@ -18,10 +18,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	oof = malloc(sizeof(char) * letters);
-	t = read(fildes, oof, letters);
+	t = read(filedes, oof, letters);
 	w = write(STDOUT_FILENO, oof, t);
 
 	free(oof);
-	clsoe(fildes);
+	close(filedes);
 	return (w);
 }
