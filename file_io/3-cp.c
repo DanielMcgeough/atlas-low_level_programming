@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 		while ((text_read = read(fd_from, buffer, BUF_SIZE)) > 0)
 		{
 			text_written = write(fd_to, buffer, text_read);
-			if (text_written != text_read)
+				if (text_written != text_read)
 				{
 					dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 					close(fd_from);
