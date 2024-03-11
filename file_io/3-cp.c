@@ -1,16 +1,17 @@
 #include "main.h"
 #define BUF_SIZE 1024
-int make_betty_happy(void);
+int make_betty_compliant(void);
 /**
- *main - copies content from one file to another
- *@argc: checked output
- *@argv: checked ouput
+ *main - copies a file
+ *@argc: argument count
+ *@argv: argument vector
  *
- *Return: always return 0
+ *Return: returns an int
  */
+
 int main(int argc, char *argv[])
 {
-	int fd_from, fd_to, bytes_read, bytes_written;
+	int fd_from, fd_to, text_read, text_written;
 	char buffer[BUF_SIZE];
 
 	if (argc != 3)
@@ -34,10 +35,10 @@ int main(int argc, char *argv[])
 			return (99);
 		}
 
-		while ((bytes_read = read(fd_from, buffer, BUF_SIZE)) > 0)
+		while ((text_read = read(fd_from, buffer, BUF_SIZE)) > 0)
 		{
-			bytes_written = write(fd_to, buffer, bytes_read);
-			if (bytes_written != bytes_read)
+			text_written = write(fd_to, buffer, bytes_read);
+			if (text_written != bytes_read)
 				{
 					dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 					close(fd_from);
@@ -46,7 +47,7 @@ int main(int argc, char *argv[])
 				}
 		}
 
-	if (bytes_read == -1)
+	if (text_read == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		close(fd_from);
