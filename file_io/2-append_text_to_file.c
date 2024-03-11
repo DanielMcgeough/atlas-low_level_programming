@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * append_test_to_file- self explanatory
+ * append_text_to_file- self explanatory
  * @filename: name of file to append text to
  * @text_content: text to append to file
  * Return: returns an int
