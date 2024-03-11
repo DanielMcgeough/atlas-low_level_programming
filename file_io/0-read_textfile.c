@@ -13,9 +13,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t w;
 	ssize_t t;
 
-	filedes = open(filename, O-RDONLY);
+	filedes = open(filename, 0-RDONLY);
 	if (filedes == -1)
 		return (0);
+
 	oof = malloc(sizeof(char) * letters);
 	t = read(fildes, oof, letters);
 	w = write(STDOUT_FILENO, oof, t);
