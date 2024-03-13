@@ -4,7 +4,7 @@
  * @head: pointer to list
  * Return: Return is void
 */
-void free_dlistint(dlintint_t *head)
+void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp;
 	
