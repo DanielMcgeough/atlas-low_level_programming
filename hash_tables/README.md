@@ -1,0 +1,2 @@
+This is the README for the Hash Table project for the January 2024 cohort at Atlas School. The purpose of this project is to encourage its students to familiarize themselves with hash tables.
+a hash table is a data structure that implements an associative array which is also called a dictionary. Dictionary construction occurs through building key to value pairs that allow data to be accessed quickly with a search function.
