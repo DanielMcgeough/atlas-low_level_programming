@@ -35,7 +35,7 @@ int binary_search(int *array, size_t size, int value)
 * Return: returns a void
 */
 
-void print_array(const in *array, size_t size)
+void print_array(const int *array, size_t size)
 {
 	size_t i = 0;
 
