@@ -27,3 +27,24 @@ int binary_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
+
+/**
+* print_array- prints an array
+* @array: array to print
+* @size: size of array
+* Return: returns a void
+*/
+
+void print_array(const in *array, size_t size)
+{
+	size_t i = 0;
+
+	while (array && i < size)
+	{
+		if (i > 0)
+			printf(", ");
+		printf("%d", array[i]);
+		++i;
+	}
+	printf("\n");
+}
